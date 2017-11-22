@@ -1,11 +1,11 @@
 
-.myImage {
+.poster {
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
-    max-width: 300px;
-    max-height: 400px;
+    max-width: 761px;
+    max-height: 471px;
 }
 
 .infosection {
@@ -14,17 +14,26 @@
     justify-content: center;
 }
 
-.myElem {
-    user-select: none;
-    cursor: pointer;
-}
-
 .description{ 
     padding-right: 30px;
 }
 
 .container {
-    background: tan;
+    width: 1100px;
+    margin: 10px auto;
     display: flex;
     flex-direction: row;
-}
+    background-color: moccasin;
+    padding: 10px;
+  }
+
+  .stars span {
+    color: rgb(180, 180, 180);
+    user-select: none;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  .stars .filled {
+    color: black;
+  }
